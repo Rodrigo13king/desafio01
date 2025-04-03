@@ -4,8 +4,15 @@ hora2 = int(input("qual a hora do nascimento do seu pai:    "))
 minuto2 = int(input("qual o minuto:    "))
 
 
-horaFilho = (hora1+minuto1)
-horaPai = (hora2+minuto2)//12
+horageral = hora1 + hora2
+minutogeral = minuto1 + minuto2
 
+if minutogeral >= 60:
+    horageral + horageral + 1
+    minutogeral = minutogeral - 60
+if horageral >= 12:
+    horageral = horageral - 12
+if horageral > 24:
+    horageral = horageral - 24
 
-if hora
+print(horageral, minutogeral)
