@@ -1,19 +1,29 @@
-h1 = int(input("hora 1 "))
-m1 = int(input("Min 1 "))
-h2 = int(input("hora 2 "))
-m2 = int(input("Min 2 "))
+data = int(input("Mes"))
 
 
-somaH = h1 + hora2
-somaM = m1 + m2
-
-if somaM > 59:
-    somaH+=1
-    somaM=somaM % 60
-    if somaH >=36:
-        somaH=somaH-36
-    elif        somaH>24:
-        somaH=somaH-24
-    elif somaH>=12:
-        somaH=somaH-12
-        print(somaH)
+if data == 1:
+    print("janeiro")
+elif data == 2:
+    print("fevereiro")
+elif data == 3:
+    print("marco")
+elif data == 4:
+    print("abril")
+elif data == 5:
+    print(("maio"))
+elif data == 6:
+  print  ("junho")
+elif data == 7:
+    print("julho")
+elif data == 8:
+  print  ("agosto")
+elif data == 9:
+    print("setembro")
+elif data == 10:
+    print("outubro")
+elif data == 11:
+    print("novembro")
+elif data == 12:
+    print("dezembro")
+else:
+    print("mes nao existe")
